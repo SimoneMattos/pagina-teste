@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="author" content="Simone Mattos">
+	<meta name="description" content="estruturando layout com semantica">
+	<meta name="keywords" content="estrutura, layout, semantica">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<!-- Vamos trabalhar com a Tag DIV.
+	     A mesma cria uma "caixinha" para estruturação do layout -->
+<div id="principal">
+	<!--cabeçalho-->
+	<header class="hero">
+		<!--menu-->
+		<nav id="menu">
+			<ul>
+				<li><a href="">INICIO</a></li>
+				<li><a href="">QUEM SOU</a></li>
+				<li><a href="">PROJETOS</a></li>
+			</ul>
+		</nav>
+		<div class="hero-content">
+			<h1>CURSO WEB FUNDAMENTOS</h1>
+			<p>Aprenda HTML, CSS e JavaScript</p>
+		</div>
+	</header>
+</div>
+
+<!--conteudo principal-->
+<main>
+	<!--seções de conteudos-->
+	<section class="content-section">
+		<div class="card">
+			<img src="./card_02.jpg">
+			<p class="descrição">Seletores</p>
+		</div>
+
+		<div class="card">
+			<img src="./card_03.jpg">
+			<p class="descrição">Posicionamento</p>
+		</div>
+
+		<div class="card">
+			<img src="./card_04.jpg">
+			<p class="descrição">Fontes</p>
+		</div>
+	</section>
+
+	<section class="content-section">
+		<!--Artigo-->
+		<article>
+			<header class="content-header"><h2>Titulo do Artigo</h2></header>
+			<p>Paragrafo 01</p>
+			<p>Paragrafo 02</p>
+		</article>
+	</section>
+</main>
+<!--Rodapé-->
+<footer class="rodape">
+	<p>Simone Mattos</p>
+</footer>
+</body>
+</html>
